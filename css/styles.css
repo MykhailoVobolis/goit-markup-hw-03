@@ -2,6 +2,7 @@ body{
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #ffffff;
+    width: 1440px;
 }
 
 ul{
@@ -13,16 +14,36 @@ a{
     color: #2e2f42;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
+
 /* logo */
 
 .logo{
-    color: #4d5ae5;
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
+        color: #4d5ae5;
 }
 
 .main-logo{
@@ -30,6 +51,7 @@ a{
 }
 
 /* Navigation-menu */
+
 
 .link-navigation{
     font-size: 16px;
@@ -63,33 +85,48 @@ a{
 /* Main-content */
 
 .main-title{
-color: #ffffff;
+    padding-top: 188px;
+    margin-left: 472px;
+    margin-right: 472px;
+    margin-bottom: 48px;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
+    color: #ffffff;
 }
 
 /* Hero-section */
 
 .hero {
+    height: 600px;
     background-color: #2e2f42;
 }
 
 .hero-button{
-    color: #ffffff;
+    
+
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin-top: 0;
+    margin-left: 636px;
+    
+    
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
+    border-color: #4d5ae5;
     background-color: #4d5ae5;
+    color: #ffffff;
     cursor: pointer;   
 }
 
 .hero-button:hover, .hero-button:focus{
     background-color: #404bbf;
+    border-color: #404bbf;
 }
 
 /* Our-competencies */
@@ -206,3 +243,5 @@ font-size: 20px;
     line-height: 1.5;
     letter-spacing: 0.32px;
 }
+
+
