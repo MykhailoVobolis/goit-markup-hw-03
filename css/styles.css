@@ -32,7 +32,12 @@ ol {
     padding-left: 0;
 }
 
+/* Header */
 
+.page-header{
+    display: flex;
+    height: 76px;
+}
 
 /* logo */
 
@@ -44,6 +49,7 @@ ol {
         letter-spacing: 0.54px;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin: 24px 0 24px 156px;
 }
 
 .main-logo{
@@ -52,6 +58,15 @@ ol {
 
 /* Navigation-menu */
 
+.page-header .navigation{
+    display: flex;
+}
+
+.navigation-menu{
+    display: flex;
+    margin: 24px 0 24px 76px;
+    gap: 40px;
+}
 
 .link-navigation{
     font-size: 16px;
@@ -68,6 +83,13 @@ ol {
 
 .contacts{
     font-style: normal;
+}
+
+.contact-list{
+    display: flex;
+    margin-top: 24px;
+    margin-left: 332px;
+    gap: 40px;
 }
 
 .link-contacts{
@@ -132,12 +154,13 @@ ol {
 /* Our-competencies */
 
 .our-competencies-title{
-    color: #2e2f42;
+    display: none;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.72px;
+    color: #2e2f42;
 }
 
 .name-competency{
