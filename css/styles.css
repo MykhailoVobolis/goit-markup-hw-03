@@ -32,6 +32,10 @@ ol {
     padding-left: 0;
 }
 
+img{
+    display: block;
+}
+
 /* Header */
 
 .main-header-container{
@@ -275,16 +279,10 @@ width: calc((100% - 72px) / 4);
 
 /* Our-portfolio */
 
-.picture{
-    display: block;
-}
 
 .portfolio{
-    display: flex;
-    flex-direction: column;
-    margin-top: 120px;
-    margin-bottom: 120px;
-    gap: 72px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-portfolio-title{
@@ -295,6 +293,7 @@ width: calc((100% - 72px) / 4);
         letter-spacing: 0.72px;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 72px;
 }
 
 .portfolio-list{
@@ -306,18 +305,10 @@ width: calc((100% - 72px) / 4);
 }
 
 .product-list .container{
-    width: 360px;
-    height: 120px;
     border-right: 1px solid #e7e9fc;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
-    display: flex;
-    flex-direction: column;
-    padding: 0px 16px;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;
+    padding: 32px 16px;
 }
 
 .product-portfolio{
@@ -326,6 +317,7 @@ font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .industry{
