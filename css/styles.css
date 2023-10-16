@@ -34,9 +34,21 @@ ol {
 
 /* Header */
 
-.page-header{
+.main-header-container{
     display: flex;
-    height: 76px;
+    height: 72px;
+    
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation{
@@ -47,22 +59,14 @@ ol {
 /* logo */
 
 .logo{
-        font-family: Raleway, sans-serif;
+        margin-right: 76px;
+    font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         color: #4d5ae5;
-
-}
-
-.navigation .container {
-    display: inline-flex;
-    height: 24px;
-    align-items: center;
-    flex-shrink: 0;
-    padding-left: 156px;
 }
 
 .main-logo{
@@ -71,14 +75,8 @@ ol {
 
 /* Navigation-menu */
 
-.page-header .navigation{
-    display: flex;
-}
-
 .navigation-menu{
     display: flex;
-    align-items: center;
-    margin-left: 76px;
     gap: 40px;
 }
 
@@ -87,6 +85,8 @@ ol {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .link-navigation:hover, .link-navigation:focus {
@@ -97,15 +97,15 @@ ol {
 
 .contacts{
     font-style: normal;
-    display: flex;
-    align-items: center;
 }
 
 .contact-list{
     display: flex;
-    align-items: center;
-    margin-left: 332px;
-    gap: 40px;
+        align-items: center;
+        gap: 40px;
+        margin-left: 332px;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 .link-contacts{
