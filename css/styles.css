@@ -39,7 +39,7 @@ ol {
     height: 72px;
 }
 
-.nav-container{
+.page-header .container{
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
@@ -165,8 +165,14 @@ ol {
 
 /* Our-competencies */
 
+.our-competencies{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
+}
+
 .our-competencies-title{
-    display: none;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -175,12 +181,26 @@ ol {
     color: #2e2f42;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .competencie-list{
     display: flex;
-    justify-content: center;
-    margin-top: 120px;
-    margin-bottom: 120px;
     gap: 24px;
+}
+
+.competency{
+    width: calc((100% - 72px) / 4);
 }
 
 .name-competency{
@@ -189,15 +209,13 @@ ol {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-    width: 264px;
-    height: 32px;
+    margin-bottom: 8px;
 }
 
 .description-competence{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    width: 264px;
 }
 
 /* Our-team */
